@@ -1,0 +1,78 @@
+.{
+	padding:0;
+	margin:0;
+}
+
+body{
+	//background: #201f28;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	line-height: 1.6;
+}
+
+nav {
+	width: 100%;
+	position: fixed;
+	background-color: #222222;
+	padding: 25px;
+	text-align: center;
+	opacity:0.95;
+}
+
+nav a{
+	text-decoration: none;	
+	color: white;
+	font-size: 25px;
+	font-family: LEMON MILK ;
+	margin-right: 50px;
+}
+
+.button{
+	margin:20px 40px;
+}
+
+.button:hover{
+	color: #ffa7a7;
+}
+
+.currentPage{
+	color:#ffa7a7;
+	margin:20px 40px;
+}
+
+
+#banner{
+	background-image:url('../img/japanStreet.jpg');
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	font-family: LEMON MILK Bold;
+}
+
+#banner h1{
+	font-size:60px;
+	line-height:0px;
+	margin: 40px;
+	color: #ff4e4e;
+	text-shadow:0 3px black;
+}
+
+#banner p{
+	font-family: Helvetica;
+	font-size:20px;
+	line-height: 1.2px;
+	color: #ffffff;
+	background: #000000;
+	padding: 25px;
+	border:#222222 1px solid;
+	border-radius: 10px;
+}
+
+
+#project1{
+	padding:20px;	
+}

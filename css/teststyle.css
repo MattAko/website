@@ -1,0 +1,38 @@
+body{
+	font-family: helvetica, Arial, sans-serif;
+	background: lightgray;
+}
+
+.wrap{
+	margin: auto;
+	min-width: 600px;
+	width: 80%;
+	background: green;
+}
+blockquote{
+	border: 1px solid white;
+	text-align: center;
+	margin-left: 0px;
+}
+
+.content{
+	background: darkgray;
+	float:left;
+	width: 70%;
+}
+
+aside{
+	float: left;
+	background: red;
+	width: 100px;
+}
+
+aside ul{
+	padding-left: 0px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:black;
+	font-weight: bold;
+}

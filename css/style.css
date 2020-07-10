@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "transat bold";
+    src: url("../src/fonts/transat/transat_bold-webfont.ttf") format("truetype");
+    
+}
+
+@font-face{
+	font-family: "transat";
+	src: url("../src/fonts/transat/transat_medium-webfont.ttf") format("truetype");
+}
+
+@font-face{
+	font-family:"fontawesome";
+	src: url("../src/fonts/fa/fa-brands-400.ttf") format("truetype");
+}
+
+
+
+body{
+	margin: 0;
+	font-family:  "transat", Helvetica, Arial, sans-serif;
+	line-height:1.6;
+}
+
+
+nav{
+	text-transform: uppercase;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	position: fixed;
+	background-color: #222222;
+	padding: 25px;
+	opacity:0.95;
+	font-family: "transat bold";
+	font-size: 25px;
+	margin-right: 50px;
+	flex-basis: 10%;
+}
+
+a{
+	justify-content: flex-start;
+	color: white;
+	text-decoration: none;	
+}
+
+.socials{
+	display: flex;
+	align-items: center;
+	flex-grow: 0.9;
+	justify-content: right;
+	padding-right: 25px;
+	font-family: "fontawesome";
+	font-size: 35px;
+}
+
+.socials a{
+	padding-left:20px;
+}
+
+.button{
+	margin:20px 40px;
+}
+
+.button:hover{
+	color: #ffa7a7;
+}
+
+.currentPage{
+	color:#ffa7a7;
+	margin:20px 40px;
+}
+
+#banner{
+	background-image:url('../img/japanStairs.jpg');
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	color: white;
+	font-style: bold;
+	margin-bottom: 80px;
+}
+
+#banner h1{
+	font-size:60px;
+	margin:0px;
+	padding: 0px;
+	letter-spacing: 1px;
+	font-family: "transat bold";
+	line-height: 60px;
+	border-bottom: 1px solid #ffffff;
+}
+
+#banner h2{
+	font-size:25px;
+	margin:0;
+
+}
+
+#banner h3{
+	margin: 0;
+	padding:0;
+	font-size: 18px;
+}
+
+.container{
+	padding: 20px;
+	margin:0px;
+	display:flex;
+	justify-content: center;
+	flex-basis: 30%;
+	font-family: "transat";
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+}
+
+.title{
+	margin-top: 80px
+}
+
+.description h2{
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+#green{
+	color:#90ee90;
+	display: inline-block;
+}
+
+.icon img{
+	border-radius: 50%;
+
+}
+
+.icon {
+	order: 1;
+	flex-basis: 15%;
+	text-align: right;
+	padding-right: 50px;
+}
+
+
+.info {
+	order: 2;
+	width:500px;
+	margin-bottom: 
+}
+
+p{
+	padding: 0px;
+	margin: 0px;
+}
+
+.title{
+	font-size: 24px;
+	text-align: center;	
+}
+
+.title h1{
+	margin:0px;
+	padding: 0px;
+}
+
+.wrapper{
+	display: flex;
+	flex-basis: 900px;
+	flex-direction: column;
+	background-color: #e0e0e0;
+}
+
+.skills-row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+
+.skills-row img{
+	margin: 10px;
+}
+
