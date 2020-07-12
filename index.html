@@ -11,34 +11,41 @@
 	
 
 	<nav>
-
-		<a href="index.html" class = "currentPage">Home</a>
-		<!--<a href="about/projects.html" class="button">Projects</a>
-		-->
-
-		<a href="src/Resume.pdf" class="button">Resume</a>
-		<div class="socials">
-			<a href="https://www.github.com/MattAko"></a>
-			<a href="https://www.linkedin.com/in/mattako/"></a>
-			<a href="https://open.spotify.com/user/1253109382?si=cLuZReP-R-CYMAfoQLEyqA"></a>
-			<a href="https://www.instagram.com/matt.ako/"></a>
+		<div class="bar">
+			<a href="index.html" class = "currentPage">Home</a>
+			<a href="src/Resume.pdf" class="button">Resume</a> 
+			<div class="socials">
+				<a href="https://www.github.com/MattAko"></a>
+				<a href="https://www.linkedin.com/in/mattako/"></a>
+				<a href="https://open.spotify.com/user/1253109382?si=cLuZReP-R-CYMAfoQLEyqA"></a>
+				<a href="https://www.instagram.com/matt.ako/"></a>
+			</div>	
 		</div>
 	</nav>
 
-	
+	<div class="mobilenav">
+		<label for="toggle">&#9776;</label>
+		<input type="checkbox" id="toggle"></input>
+		<div class="menu">
+			<a href="index.html"><div id="red">Home</div></a>
+			<a href="src/Resume.pdf">Resume</a> 
+			<a href="https://www.github.com/MattAko">GitHub</a>
+			<a href="https://www.linkedin.com/in/mattako/">LinkedIn</a>
+			<a href="https://open.spotify.com/user/1253109382?si=cLuZReP-R-CYMAfoQLEyqA">Spotify</a>
+			<a href="https://www.instagram.com/matt.ako/">Instagram</a>
+		</div>
+	</div>
+
 	<div id = "banner" >
 		<h1>Matthew Roberts</h1>
 		<h2><i>A Cal Poly Pomona Alumnus</i></h2>
 	</div>
-
-	
+	<!-- Parallax Script-->
 	<script src="js/main.js"></script>
 	
-
 	<div class = "title">
 		<h1>About Me</h1>
 	</div>
-
 	
 	<div class = "container">
 		<div class = "icon">
@@ -90,7 +97,7 @@
 		</div>
 		<div class = "info">
 			<div class = "description">
-				<h2>iD Tech Camps - Caltech Camps</h2>
+				<h2>iD Tech Camps - Caltech Camp</h2>
 				<p>Instructor <br><i>Jun '19 - Sept '19</i></p>
 				<p>
 					Taught weekly programming and design courses for children age 14-18. The courses I taught here were 'VR Design in Unity', 'Game Design in Unreal Engine', and 'Coding for Engineers'.
@@ -113,7 +120,11 @@
 		</div>
 	</div>
 
-
+	<footer>
+		<p>Website designed and created by Matthew Roberts.</p>
+		<p>mattako@protonmail.com</p>
+		<p>(626)975-8459</p>
+	</footer>
 
 </body>
 </html>

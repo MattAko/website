@@ -1,12 +1,61 @@
 @media(max-width: 568px){
+	.bar{
+		visibility: hidden;
+	}
 	nav{
 		visibility: hidden;
 	}
 	#banner h1{
 		text-align: center;
+		font-size:50px;
+		border-bottom: 1px solid #ffffff;
+	}
+	#banner h2{
+		font-size:20px;
 	}
 	.info{
 		width:400px;
+	}
+	label{
+		padding: 0 40px 0 0;
+		text-align: right;
+		cursor: pointer;
+		cursor:pointer;
+		border-bottom: 1px solid #EAEAEB;
+	}
+	.menu{
+		display: none;
+		text-align: center;
+		width: 100%;
+	}
+	.menu a{
+		display: block;
+		border-bottom: 1px solid #EAEAEB;
+	}
+	#toggle:checked + .menu{
+		display: block;
+	}
+}
+
+@media(min-width: 569px){
+	.mobilenav{
+		display: none
+	}
+	.menu{
+		display: none
+	}
+	.label{
+		display:none;
+	}
+	#banner h1{
+		font-size: 60px;
+		border-bottom: 1px solid #ffffff;
+	}
+	#banner h2{
+		font-size:25px;
+	}
+	.icon{
+		text-align: right;
 	}
 }
 
@@ -35,45 +84,62 @@ body{
 	line-height:1.6;
 }
 
-
 nav{
 	text-transform: uppercase;
-	display: flex;
-	flex-wrap: wrap;
+	display: inline;
 	width: 100%;
 	position: fixed;
 	background-color: #222222;
-	padding: 25px;
 	opacity:0.95;
 	font-family: "transat bold";
 	font-size: 25px;
-	margin-right: 50px;
-	flex-basis: 10%;
+	padding: 25px;
+}
+
+label{
+	display: block;
+	font-size:26px;
+	line-height: 70px;
+	position: : fixed;
+	background-color: #0a0a0a;
+	color:white;
+}
+#toggle{
+	position:fixed;
+	display: none;
+} 
+.mobilenav{
+	position: fixed;
+	width: 100%;
+	padding:15px;
+	font-size:30px;
+	padding: 0 80px 0 0;
 }
 
 a{
+	padding: 10px 10px;
 	justify-content: flex-start;
 	color: white;
 	text-decoration: none;	
 }
 
-
-.socials{
-	display: flex;
-	align-items: center;
-	flex-grow: 0.9;
-	justify-content: right;
-	padding-right: 25px;
-	font-family: "fontawesome";
-	font-size: 35px;
+.menu{
+	background-color: #0a0a0a;
 }
 
-.socials a{
-	padding-left:20px;
+.socials{
+	line-height: 1.0;
+	float:right;
+	font-family: "fontawesome";
+	font-size: 35px;
+	margin-right: 40px;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 .socials a:hover{
 	color: #ffa7a7;
+	line-height: -1px;
 }
 
 .button{
@@ -92,7 +158,7 @@ a{
 #banner{
 	background-image:url('../img/japanStairs.jpg');
 	background-size:cover;
-	background-position:center;
+	background-position: center 0px;
 	height:100vh;
 	display:flex;
 	flex-direction: column;
@@ -104,19 +170,17 @@ a{
 }
 
 #banner h1{
-	font-size:60px;
 	margin:0px;
 	padding: 0px;
 	letter-spacing: 1px;
 	font-family: "transat bold";
 	line-height: 60px;
-	border-bottom: 1px solid #ffffff;
+	text-shadow: 2px 2px black;
 }
 
 #banner h2{
-	font-size:25px;
 	margin:0;
-
+	text-shadow: 1px 1px black;
 }
 
 #banner h3{
@@ -158,7 +222,6 @@ a{
 .icon {
 	order: 1;
 	flex-basis: 15%;
-	text-align: right;
 	padding-right: 50px;
 }
 
@@ -205,3 +268,14 @@ p{
 	margin: 10px;
 }
 
+#red{
+	color: #ffa7a7;
+}
+
+footer{
+	background-color: #0a0a0a;
+	text-align: center;
+	color: white;
+	padding:20px;
+	margin-top:50px;
+}
