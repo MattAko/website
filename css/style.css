@@ -1,3 +1,16 @@
+@media(max-width: 568px){
+	nav{
+		visibility: hidden;
+	}
+	#banner h1{
+		text-align: center;
+	}
+	.info{
+		width:400px;
+	}
+}
+
+
 @font-face {
     font-family: "transat bold";
     src: url("../src/fonts/transat/transat_bold-webfont.ttf") format("truetype");
@@ -44,6 +57,7 @@ a{
 	text-decoration: none;	
 }
 
+
 .socials{
 	display: flex;
 	align-items: center;
@@ -56,6 +70,10 @@ a{
 
 .socials a{
 	padding-left:20px;
+}
+
+.socials a:hover{
+	color: #ffa7a7;
 }
 
 .button{
@@ -108,14 +126,14 @@ a{
 }
 
 .container{
-	padding: 20px;
+	padding: 0px;
 	margin:0px;
 	display:flex;
 	justify-content: center;
 	flex-basis: 30%;
 	font-family: "transat";
 	flex-wrap: wrap;
-	margin-bottom: 100px;
+
 }
 
 .title{
@@ -171,6 +189,8 @@ p{
 	flex-basis: 900px;
 	flex-direction: column;
 	background-color: #e0e0e0;
+	padding-bottom: 80px;
+	margin-top: 100px;
 }
 
 .skills-row{

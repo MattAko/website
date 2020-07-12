@@ -3,28 +3,61 @@
 	margin:0;
 }
 
+@font-face {
+    font-family: "transat bold";
+    src: url("../src/fonts/transat/transat_bold-webfont.ttf") format("truetype");
+    
+}
+
+@font-face{
+	font-family: "transat";
+	src: url("../src/fonts/transat/transat_medium-webfont.ttf") format("truetype");
+}
+
+@font-face{
+	font-family:"fontawesome";
+	src: url("../src/fonts/fa/fa-brands-400.ttf") format("truetype");
+}
+
 body{
-	//background: #201f28;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "transat" ,Helvetica, Arial, sans-serif;
 	margin: 0;
 	line-height: 1.6;
 }
 
-nav {
+nav{
+	text-transform: uppercase;
+	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	position: fixed;
 	background-color: #222222;
 	padding: 25px;
-	text-align: center;
 	opacity:0.95;
+	font-family: "transat bold";
+	font-size: 25px;
+	margin-right: 50px;
+	flex-basis: 10%;
 }
 
-nav a{
-	text-decoration: none;	
+a{
+	justify-content: flex-start;
 	color: white;
-	font-size: 25px;
-	font-family: LEMON MILK ;
-	margin-right: 50px;
+	text-decoration: none;	
+}
+
+.socials{
+	display: flex;
+	align-items: center;
+	flex-grow: 0.9;
+	justify-content: right;
+	padding-right: 25px;
+	font-family: "fontawesome";
+	font-size: 35px;
+}
+
+.socials a{
+	padding-left:20px;
 }
 
 .button{
@@ -45,33 +78,22 @@ nav a{
 	background-image:url('../img/japanStreet.jpg');
 	background-size:cover;
 	background-position:center;
+	background-attachment: fixed;
 	height:100vh;
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items:center;
-	font-family: LEMON MILK Bold;
+	font-family: "transat bold";
 }
 
 #banner h1{
+	text-transform: uppercase;
 	font-size:60px;
 	line-height:0px;
 	margin: 40px;
 	color: #ff4e4e;
-	text-shadow:0 3px black;
 }
-
-#banner p{
-	font-family: Helvetica;
-	font-size:20px;
-	line-height: 1.2px;
-	color: #ffffff;
-	background: #000000;
-	padding: 25px;
-	border:#222222 1px solid;
-	border-radius: 10px;
-}
-
 
 #project1{
 	padding:20px;	
