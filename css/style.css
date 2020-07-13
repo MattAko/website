@@ -1,4 +1,4 @@
-@media(max-width: 568px){
+@media(max-width: 600px){
 	.bar{
 		visibility: hidden;
 	}
@@ -37,7 +37,7 @@
 	}
 }
 
-@media(min-width: 569px){
+@media(min-width: 601px){
 	.mobilenav{
 		display: none
 	}
